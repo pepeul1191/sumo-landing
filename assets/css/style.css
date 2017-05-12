@@ -15,14 +15,14 @@
 /* Import fonts */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 
-* { 
+* {
 	margin: 0;
 	padding: 0px;
     font-family: 'Lato', sans-serif;
-} 
-body { 
-	background: #fff; 
-	margin: 0; 
+}
+body {
+	background: #fff;
+	margin: 0;
 	color: #5a5a5a;
 }
 
@@ -32,16 +32,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-p { 
-	padding: 0; 
-	margin-bottom: 12px; 
+p {
+	padding: 0;
+	margin-bottom: 12px;
     font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	font-size: 16px; 
+	font-size: 16px;
 	line-height: 26px;
 	letter-spacing: 1px;
-	color: #666; 
-	margin-top: 10px; 
+	color: #666;
+	margin-top: 10px;
 }
 
 html,
@@ -49,8 +49,8 @@ body {
 	height: 100%;
 }
 
-.alignleft { float: left; }
-.alignright { float: right; }
+.alignleft { float: left;  }
+.alignright { float: right;  }
 .aligncenter {
 	margin-left: auto;
 	margin-right: auto;
@@ -58,11 +58,11 @@ body {
 	clear: both;
 }
 .centered {text-align: center}
-.mt {margin-top: 50px;}
-.mb {margin-bottom: 50px;}
-.mtb {margin-top: 50px; margin-bottom: 50px;}
-.mtb2 { margin-top: 100px; margin-bottom: 100px;}
-.ptb {padding-top: 80px; padding-bottom: 80px;}
+.mt {margin-top: 50px; }
+.mb {margin-bottom: 50px; }
+.mtb {margin-top: 50px;  margin-bottom: 50px; }
+.mtb2 { margin-top: 100px;  margin-bottom: 100px; }
+.ptb {padding-top: 80px;  padding-bottom: 80px; }
 
 .clear {
 	clear: both;
@@ -91,10 +91,10 @@ body {
 	padding: 0;
 	margin: 0;
 }
-a { 
+a {
 	padding: 0;
 	margin: 0;
-	text-decoration: none; 
+	text-decoration: none;
 	-webkit-transition: background-color .4s linear, color .4s linear;
 	-moz-transition: background-color .4s linear, color .4s linear;
 	-o-transition: background-color .4s linear, color .4s linear;
@@ -169,10 +169,10 @@ input {
 	text-transform: uppercase;
 	padding: 12px 28px 11px 28px;
 	margin-top: 20px;
-	}	
+	}
 
 .btn-green {
-	background: #03C9A9;
+	background: #892E27;
 	color: white
 }
 
@@ -186,7 +186,7 @@ input {
 	min-height: 700px;
 	width: 100%;
 	color: white;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -203,7 +203,7 @@ input {
 	left: 45px;
 	font-size: 18px;
 	font-weight: 900;
-	position:absolute; 
+	position:absolute;
 }
 
 #h .social {
@@ -225,6 +225,9 @@ input {
 	font-weight: 700;
 	color: white;
 	font-size: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: rgba(52, 52, 52, 0.5);;
 }
 
 /* Store Links */
@@ -243,7 +246,7 @@ input {
 	min-height: 450px;
 	width: 100%;
 	color: white;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -267,7 +270,7 @@ input {
 	border-radius: 25px;
 	padding-top: 15px;
 	padding-bottom: 25px;
-	margin: 5px; 
+	margin: 5px;
 }
 
 .price-table .p-head {
@@ -330,7 +333,7 @@ ul {
 	padding-top: 90px;
 	padding-bottom: 60px;
 	min-height: 300px;
-	background: #03C9A9;
+	background: #892E27;
 	color: white;
 }
 
@@ -362,5 +365,39 @@ ul {
 }
 
 #f a:hover {
-	color: #03C9A9;
+	color: #892E27;
 }
+
+.footer-contacto{
+	padding-top: 20px !important;
+	background: #343434 !important;
+	font-weight: 400 !important;
+	background: url(../img/contacto.png) no-repeat center top !important;
+}
+
+.form-control{
+	border-radius: 0px
+}
+
+#sedes > p{
+	color: #FFF;
+	font-weight: 400 !important;
+}
+
+.form-control{background: #EAEAEA !important;}
+
+#copyright{background: black; color: white; text-align: center; margin-top: 0px; margin-bottom: 0px; padding-top: 20px; padding-bottom: 20px;}
+
+.btn-default {
+    border-radius: 0px;
+    background: #892E27;
+    border: 1px solid #892E27;
+    color: #FFFFFF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.btn-default > span{font-size: 20px;}
