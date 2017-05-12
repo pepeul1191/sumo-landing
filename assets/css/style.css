@@ -435,3 +435,5 @@ letter-spacing: 1px;
 color: #666;
 margin-top: 10px;
 }
+
+#sep > .container > .row > div > h4 {font-weight: 400;     text-align: left;}
